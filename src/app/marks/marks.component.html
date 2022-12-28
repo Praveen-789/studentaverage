@@ -1,0 +1,44 @@
+<p>marks works!</p>
+<p>Add Student & his/her Marks Here</p>
+<div>
+    <form>
+        <div id="'signup form">
+            <label>id</label><br>
+            <input type="text" placeholder="enter your id" [(ngModel)]="user.id" name="id" >
+        </div>
+        <div id="'signup form">
+            <label>student</label><br>
+            <input type="text" placeholder="enter your name" [(ngModel)]="user.student" name="name">
+        </div>
+        <div id="'signup form">
+            <label>sem</label><br>
+            <input type="text" placeholder="enter your mobileno." [(ngModel)]="user.sem" name="mobile">
+        </div>
+        <div id="'signup form">
+            <label>english</label><br>
+            <input type="text" placeholder="enter your password" [(ngModel)]="user.english" name="pw">
+        </div>
+        <div id="'signup form">
+            <label>maths</label><br>
+            <input type="text" placeholder="enter your Email" [(ngModel)]="user.maths" name="email">
+        </div>
+        <div id="'signup form">
+            <label>science</label><br>
+            <input type="text" placeholder="enter your Country" [(ngModel)]="user.science" name="country">
+        </div>
+        <div id="'signup form">
+            <label>percentage</label><br>
+            <input type="text" placeholder="enter your Country" [(ngModel)]="user.percentage" name="country">
+        </div>
+        <!-- <button (click)="openaccount1()">SIGN UP</button> -->
+        <div class="form-group">
+            <input class="btn btn-success" type="submit" name="add studenr" value="Register" (click)="openaccount($event)">
+        </div> 
+        
+          
+        
+        
+    </form>
+    
+
+</div>
